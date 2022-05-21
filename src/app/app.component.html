@@ -1,5 +1,6 @@
 <app-header></app-header>
-<app-input (PokemonList)="pokemonParentUpdate($event)"></app-input>
-<ng-container>
+<ng-container *ngIf="allpokemonFromParent.length">
   <app-pokemon [pokemonFromParent]="allpokemonFromParent"></app-pokemon>
 </ng-container>
+<app-input (PokemonList)="pokemonParentUpdate($event)"></app-input>
+
