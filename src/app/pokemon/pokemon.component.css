@@ -1,0 +1,113 @@
+body {
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+a {
+  text-decoration: none;
+}
+h3
+ {
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+}
+
+.main-container {
+  height: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  display: grid;
+  gap: 2rem 3rem;
+}
+
+.text-container {
+  display: grid;
+  gap: 1rem;
+}
+
+.language-btn {
+  width: 30px;
+  border-radius: 100%;
+  background-color: whitesmoke;
+  border: 1px solid gray;
+}
+
+.input-container{
+  height: 5vw;
+}
+.inputClass {
+  width: 35vw;
+  height: 1.5vw;
+  border-radius: 20px;
+}
+
+.show-btn{
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 5px;
+  width: 70px;
+  height: 28px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+.result {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 0px;
+}
+
+.pokemon-tbl {
+  background-color: #eee;
+  border: 1px solid #eee;
+  border-radius: 24px;
+}
+
+ .row{
+  color: black;
+  background-color: violet;
+  padding: 4px 4px 4px 4px 4px;
+  border-radius: 40px;
+ }
+
+ .column {
+  padding: 5px;
+  border-radius: 40px;
+ }
+
+ table#tabelle tr:last-of-type td {
+  background-color: fffb99;
+  text-align: center;
+ }
+
+ .showWarning {
+   display:block;
+ }
+
+ ul {
+   cursor: pointer;
+ }
+
+ li{
+  list-style-type: none;
+ }
