@@ -1,2 +1,5 @@
 <app-header></app-header>
 <app-input (PokemonList)="pokemonParentUpdate($event)"></app-input>
+<ng-container>
+  <app-pokemon [pokemonFromParent]="allpokemonFromParent"></app-pokemon>
+</ng-container>
